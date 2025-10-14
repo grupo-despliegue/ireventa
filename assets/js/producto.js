@@ -151,6 +151,14 @@ const productos = {
 const producto = productos[id];
 const container = document.getElementById("producto");
 
+function agregarAlCarritoUI(producto) {
+  const carrito = JSON.parse(localStorage.getItem("carrito") || "[]");
+  carrito.push(producto);
+  localStorage.setItem("carrito", JSON.stringify(carrito));
+  document.querySelectorAll("#contadorCarritoNumero").forEach(elem => elem.textContent = carrito.length);
+  alert(`${producto.nombre} se ha añadido al carrito`);
+}
+
 if (producto) {
   const listaDetalles = producto.detalles
     ? `<ul class="list-disc pl-5 space-y-1 text-gray-700 dark:text-gray-200 mb-6">
@@ -159,15 +167,24 @@ if (producto) {
     : "";
 
   container.innerHTML = `
-    <div class="flex flex-col items-center text-center">
-      <h2 class="text-3xl font-bold mb-4">${producto.nombre}</h2>
-      <img src="${producto.imagen}" alt="${producto.nombre}" class="max-w-xs w-full rounded mb-4 shadow" />
-    </div>
-    <p class="text-gray-700 dark:text-gray-200 text-lg mb-4">${producto.descripcion}</p>
-    ${listaDetalles}
-    <p class="text-green-600 dark:text-green-400 text-2xl font-bold mb-6">${producto.precio}</p>
+  <div class="flex flex-col items-center text-center">
+    <h2 class="text-3xl font-bold mb-4">${producto.nombre}</h2>
+    <img src="${producto.imagen}" alt="${producto.nombre}" class="max-w-xs w-full rounded mb-4 shadow" />
+  </div>
+  <p class="text-gray-700 dark:text-gray-200 text-lg mb-4">${producto.descripcion}</p>
+  ${listaDetalles}
+  <p class="text-green-600 dark:text-green-400 text-2xl font-bold mb-6">${producto.precio}</p>
+  <div class="flex gap-4">
     <a href="index.html" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded transition">← Volver al catálogo</a>
+    <button id="addCarritoBtn" class="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded transition flex items-center gap-2">
+      + Añadir al carrito
+    </button>
+  </div>
   `;
+
+  document.getElementById("addCarritoBtn").addEventListener("click", () => {
+    agregarAlCarritoUI(producto);
+  });
 } else {
   container.innerHTML = `
     <h2 class="text-2xl font-bold text-red-600 dark:text-red-400 mb-4">Producto no encontrado</h2>
