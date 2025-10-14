@@ -52,7 +52,7 @@ const productos = {
   },
   "iphone-14-pro-max": {
     nombre: "iPhone 14 Pro Max",
-    descripcion: "Pantalla de 6,7″, chip A16 Bionic, cámara triple de 48 MP, Dynamic Island.",
+    descripcion: "Pantalla de 6,7″, chip A16 Bionic, cámara triple de 48 MP, Dynamic Island.",
     precio: "700€",
     imagen: "../assets/img/iphone-14-pro-max.jpg",
     detalles: [
@@ -64,7 +64,7 @@ const productos = {
   },
   "iphone-14-pro": {
     nombre: "iPhone 14 Pro",
-    descripcion: "Pantalla de 6,1″, chip A16 Bionic, cámara triple de 48 MP, Dynamic Island.",
+    descripcion: "Pantalla de 6,1″, chip A16 Bionic, cámara triple de 48 MP, Dynamic Island.",
     precio: "550€",
     imagen: "../assets/img/iphone-14-pro.jpg",
     detalles: [
@@ -153,7 +153,7 @@ const container = document.getElementById("producto");
 
 if (producto) {
   const listaDetalles = producto.detalles
-    ? `<ul class="list-disc pl-5 space-y-1 text-gray-700 mb-6">
+    ? `<ul class="list-disc pl-5 space-y-1 text-gray-700 dark:text-gray-200 mb-6">
          ${producto.detalles.map(detalle => `<li>${detalle}</li>`).join('')}
        </ul>`
     : "";
@@ -163,15 +163,15 @@ if (producto) {
       <h2 class="text-3xl font-bold mb-4">${producto.nombre}</h2>
       <img src="${producto.imagen}" alt="${producto.nombre}" class="max-w-xs w-full rounded mb-4 shadow" />
     </div>
-    <p class="text-gray-700 text-lg mb-4">${producto.descripcion}</p>
+    <p class="text-gray-700 dark:text-gray-200 text-lg mb-4">${producto.descripcion}</p>
     ${listaDetalles}
-    <p class="text-green-600 text-2xl font-bold mb-6">${producto.precio}</p>
-    <a href="index.html" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded">← Volver al catálogo</a>
+    <p class="text-green-600 dark:text-green-400 text-2xl font-bold mb-6">${producto.precio}</p>
+    <a href="index.html" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded transition">← Volver al catálogo</a>
   `;
 } else {
   container.innerHTML = `
-    <h2 class="text-2xl font-bold text-red-600 mb-4">Producto no encontrado</h2>
-    <p class="mb-6">El producto solicitado no está disponible o el ID es incorrecto.</p>
-    <a href="index.html" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded">← Volver al catálogo</a>
+    <h2 class="text-2xl font-bold text-red-600 dark:text-red-400 mb-4">Producto no encontrado</h2>
+    <p class="text-gray-700 dark:text-gray-200 mb-6">El producto solicitado no está disponible o el ID es incorrecto.</p>
+    <a href="index.html" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded transition">← Volver al catálogo</a>
   `;
 }

@@ -6,26 +6,42 @@
   <title>iReventa</title>
   <meta name="description" content="Catálogo online de iPhones reacondicionados" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    };
+  </script>
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans">
+
+<body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-100 font-sans transition-colors duration-300">
 
   <!-- Header -->
-  <header class="bg-indigo-600 text-white py-6 text-center shadow">
-    <h1 class="text-3xl font-bold">iReventa</h1>
-    <p class="mt-1 text-lg">Catálogo online de iPhones reacondicionados</p>
+  <header class="bg-indigo-600 dark:bg-indigo-700 text-white py-6 shadow transition-colors duration-300">
+    <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+      <div class="text-center w-full sm:w-auto">
+        <h1 class="text-3xl font-bold">iReventa</h1>
+        <p class="mt-1 text-lg opacity-90">Catálogo online de iPhones reacondicionados</p>
+      </div>
+      <button id="themeToggle"
+              class="hidden sm:inline-flex ml-6 shrink-0 items-center gap-2 rounded-xl border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium backdrop-blur hover:bg-white/30 focus:outline-none focus:ring-2 focus:ring-white/40 transition"
+              type="button" aria-label="Cambiar tema">
+        <span id="themeIcon" aria-hidden="true">🌙</span>
+      </button>
+    </div>
   </header>
 
-  <!-- Contenido -->
+  <!-- Main -->
   <main class="max-w-3xl mx-auto p-6">
-    <div id="producto" class="bg-white rounded shadow p-6"></div>
+    <div id="producto" class="bg-white dark:bg-gray-800 rounded shadow p-6 text-gray-800 dark:text-gray-100 transition-colors duration-300"></div>
   </main>
 
   <!-- Footer -->
-  <footer class="bg-gray-200 text-center py-4 mt-10 text-sm text-gray-600">
+  <footer class="bg-gray-200 dark:bg-gray-800 text-center py-4 mt-10 text-sm text-gray-700 dark:text-gray-200 transition-colors duration-300">
     &copy; 2025 iReventa. Todos los derechos reservados.
   </footer>
 
-  <!-- Script externo -->
+  <!-- Scripts -->
+  <script src="../assets/js/modo-oscuro.js"></script>
   <script src="../assets/js/producto.js"></script>
 </body>
 </html>
