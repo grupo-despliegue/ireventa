@@ -16,11 +16,14 @@
         <h1 class="text-3xl font-bold">iReventa</h1>
         <p class="mt-1 text-lg opacity-90">Catálogo online de iPhones reacondicionados</p>
       </div>
-      <button id="themeToggle"
-              class="hidden sm:inline-flex ml-6 shrink-0 items-center gap-2 rounded-xl border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium backdrop-blur hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/40"
-              type="button" aria-label="Cambiar tema">
-        <span id="themeIcon" aria-hidden="true">🌙</span>
-      </button>
+      <div class="flex items-center gap-4">
+        <button id="contadorCarrito" class="relative bg-white/10 px-3 py-2 rounded-xl hover:bg-white/20">
+          🛒 <span id="contadorCarritoNumero" class="absolute -top-2 -right-2 bg-red-600 text-white rounded-full text-xs px-2 py-0.5">0</span>
+        </button>
+        <button id="themeToggle" class="hidden sm:inline-flex ml-2 shrink-0 items-center gap-2 rounded-xl border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium backdrop-blur hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/40" type="button" aria-label="Cambiar tema">
+          <span id="themeIcon" aria-hidden="true">🌙</span>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -142,5 +145,6 @@
   </footer>
 
   <script src="../assets/js/modo-oscuro.js"></script>
+  <script src="../assets/js/carrito.js"></script>
 </body>
 </html>
