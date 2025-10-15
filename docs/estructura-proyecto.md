@@ -5,7 +5,7 @@ Este documento describe la estructura del repositorio del proyecto **iReventa** 
 ---
 
 ## 📁 Estructura general
-
+```
 iReventa/
 ├── assets/ # Recursos estáticos del proyecto
 │ ├── img/ # Imágenes de los productos
@@ -21,7 +21,7 @@ iReventa/
 ├── tests/ # Carpeta reservada para pruebas (actualmente vacía)
 │
 └── README.md # Descripción general del proyecto
-
+```
 ---
 
 ## 📦 Descripción de carpetas
