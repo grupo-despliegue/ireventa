@@ -6,7 +6,7 @@ const productos = {
     nombre: "iPhone 15 Pro Max",
     descripcion: "Pantalla de 6,7″, chip A17 Pro, cámara triple de 48 MP, Dynamic Island.",
     precio: "950€",
-    imagen: "../assets/img/iphone-15-pro-max.jpg",
+    imagen: "assets/img/iphone-15-pro-max.jpg",
     detalles: [
       "Capacidad: 128 GB, 256 GB, 512 GB, 1 TB",
       "Material: Titanio de grado aeroespacial",
@@ -18,7 +18,7 @@ const productos = {
     nombre: "iPhone 15 Pro",
     descripcion: "Pantalla de 6,1″, chip A17 Pro, cámara triple de 48 MP, Dynamic Island.",
     precio: "850€",
-    imagen: "../assets/img/iphone-15-pro.jpg",
+    imagen: "assets/img/iphone-15-pro.jpg",
     detalles: [
       "Capacidad: 128 GB, 256 GB, 512 GB",
       "Color: Negro, Plata, Azul, Natural",
@@ -30,7 +30,7 @@ const productos = {
     nombre: "iPhone 15",
     descripcion: "Pantalla de 6,1″, chip A16 Bionic, cámara dual de 48 MP.",
     precio: "650€",
-    imagen: "../assets/img/iphone-15.jpg",
+    imagen: "assets/img/iphone-15.jpg",
     detalles: [
       "Capacidad: 128 GB, 256 GB, 512 GB",
       "Color: Azul, Rosa, Verde, Amarillo, Negro",
@@ -42,7 +42,7 @@ const productos = {
     nombre: "iPhone 15 Plus",
     descripcion: "Pantalla de 6,7″, chip A16 Bionic, cámara dual de 48 MP.",
     precio: "720€",
-    imagen: "../assets/img/iphone-15-plus.jpg",
+    imagen: "assets/img/iphone-15-plus.jpg",
     detalles: [
       "Capacidad: 128 GB, 256 GB, 512 GB",
       "Pantalla Super Retina XDR",
@@ -54,7 +54,7 @@ const productos = {
     nombre: "iPhone 14 Pro Max",
     descripcion: "Pantalla de 6,7″, chip A16 Bionic, cámara triple de 48 MP, Dynamic Island.",
     precio: "700€",
-    imagen: "../assets/img/iphone-14-pro-max.jpg",
+    imagen: "assets/img/iphone-14-pro-max.jpg",
     detalles: [
       "Always-On display",
       "ProMotion, hasta 120 Hz",
@@ -66,7 +66,7 @@ const productos = {
     nombre: "iPhone 14 Pro",
     descripcion: "Pantalla de 6,1″, chip A16 Bionic, cámara triple de 48 MP, Dynamic Island.",
     precio: "550€",
-    imagen: "../assets/img/iphone-14-pro.jpg",
+    imagen: "assets/img/iphone-14-pro.jpg",
     detalles: [
       "Pantalla OLED Super Retina XDR",
       "Grabación ProRes y Dolby Vision",
@@ -78,7 +78,7 @@ const productos = {
     nombre: "iPhone 14",
     descripcion: "Pantalla de 6,1″, chip A15 Bionic, cámara dual de 12 MP.",
     precio: "400€",
-    imagen: "../assets/img/iphone-14.jpg",
+    imagen: "assets/img/iphone-14.jpg",
     detalles: [
       "Modo Cine para vídeos",
       "Detección de choques, emergencia SOS",
@@ -90,7 +90,7 @@ const productos = {
     nombre: "iPhone 14 Plus",
     descripcion: "Pantalla de 6,7″, chip A15 Bionic, cámara dual de 12 MP.",
     precio: "450€",
-    imagen: "../assets/img/iphone-14-plus.jpg",
+    imagen: "assets/img/iphone-14-plus.jpg",
     detalles: [
       "Pantalla grande y brillante",
       "Carga rápida compatible",
@@ -102,7 +102,7 @@ const productos = {
     nombre: "iPhone SE 2022",
     descripcion: "Pantalla de 4,7″, chip A15 Bionic, cámara de 12 MP.",
     precio: "200€",
-    imagen: "../assets/img/iphone-se-2022.jpg",
+    imagen: "assets/img/iphone-se-2022.jpg",
     detalles: [
       "Diseño clásico con botón Home",
       "Touch ID",
@@ -114,7 +114,7 @@ const productos = {
     nombre: "iPhone 13",
     descripcion: "Pantalla de 6,1″, chip A15 Bionic, cámara dual de 12 MP.",
     precio: "320€",
-    imagen: "../assets/img/iphone-13.jpg",
+    imagen: "assets/img/iphone-13.jpg",
     detalles: [
       "Buen rendimiento para juegos",
       "Modo cine para vídeo",
@@ -126,7 +126,7 @@ const productos = {
     nombre: "iPhone 13 Mini",
     descripcion: "Pantalla de 5,4″, chip A15 Bionic, cámara dual de 12 MP.",
     precio: "280€",
-    imagen: "../assets/img/iphone-13-mini.jpg",
+    imagen: "assets/img/iphone-13-mini.jpg",
     detalles: [
       "Diseño compacto ideal para una mano",
       "Autonomía mejorada respecto al 12 mini",
@@ -138,7 +138,7 @@ const productos = {
     nombre: "iPhone 13 Pro",
     descripcion: "Pantalla de 6,1″, chip A15 Bionic, cámara triple de 12 MP.",
     precio: "450€",
-    imagen: "../assets/img/iphone-13-pro.jpg",
+    imagen: "assets/img/iphone-13-pro.jpg",
     detalles: [
       "Pantalla ProMotion de 120 Hz",
       "Grabación en ProRes",

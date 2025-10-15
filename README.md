@@ -46,24 +46,24 @@ iReventa/
 │  ├─ index.html          # Catálogo (grid de productos)
 │  ├─ producto.html       # Vista de detalle (carga dinámica)
 │  └─ carrito.html        # Vista del carrito (lista)
-├─ assets/
-│  ├─ img/                # Imágenes de productos
-│  │  ├─ iphone-13-mini.jpg
-│  │  ├─ iphone-13-pro.jpg
-│  │  ├─ iphone-13.jpg
-│  │  ├─ iphone-14-plus.jpg
-│  │  ├─ iphone-14-pro-max.jpg
-│  │  ├─ iphone-14-pro.jpg
-│  │  ├─ iphone-14.jpg
-│  │  ├─ iphone-15-plus.jpg
-│  │  ├─ iphone-15-pro-max.jpg
-│  │  ├─ iphone-15-pro.jpg
-│  │  ├─ iphone-15.jpg
-│  │  └─ iphone-se-2022.jpg
-│  └─ js/
-│     ├─ modo-oscuro.js   # Toggle + persistencia del tema
-│     ├─ carrito.js       # Lógica de carrito y contador
-│     └─ producto.js      # Render de la página de detalle
+│  └─ assets/
+│     ├─ img/                # Imágenes de productos
+│     │  ├─ iphone-13-mini.jpg
+│     │  ├─ iphone-13-pro.jpg
+│     │  ├─ iphone-13.jpg
+│     │  ├─ iphone-14-plus.jpg
+│     │  ├─ iphone-14-pro-max.jpg
+│     │  ├─ iphone-14-pro.jpg
+│     │  ├─ iphone-14.jpg
+│     │  ├─ iphone-15-plus.jpg
+│     │  ├─ iphone-15-pro-max.jpg
+│     │  ├─ iphone-15-pro.jpg
+│     │  ├─ iphone-15.jpg
+│     │  └─ iphone-se-2022.jpg
+│     └─ js/
+│         ├─ modo-oscuro.js   # Toggle + persistencia del tema
+│         ├─ carrito.js       # Lógica de carrito y contador
+│         └─ producto.js      # Render de la página de detalle
 ├─ docs/
 │  ├─ estructura-paginas-html.md
 │  ├─ estructura-proyecto.md

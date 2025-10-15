@@ -7,9 +7,6 @@ Este documento describe la estructura del repositorio del proyecto **iReventa** 
 ## 📁 Estructura general
 ```
 iReventa/
-├── assets/ # Recursos estáticos del proyecto
-│ ├── img/ # Imágenes de los productos
-│ └── js/ # Archivos JavaScript con la lógica de la aplicación
 │
 ├── docs/ # Documentación del proyecto (archivos .md)
 │
@@ -17,6 +14,9 @@ iReventa/
 │ ├── index.html # Página principal (inicio)
 │ ├── producto.html # Página de detalle de producto
 │ └── carrito.html # Página del carrito de compra
+│ └── assets/ # Recursos estáticos del proyecto
+│     ├── img/ # Imágenes de los productos
+│     └── js/ # Archivos JavaScript con la lógica de la aplicación
 │
 ├── tests/ # Carpeta reservada para pruebas (actualmente vacía)
 │
