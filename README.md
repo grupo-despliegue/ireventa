@@ -10,17 +10,17 @@ Estado: **estable**.
 ---
 
 ## 📚 Índice
-- [📖 Documentación](#📖-documentación)
-- [✨ Funcionalidades](#✨-funcionalidades)
-- [📁 Estructura](#📁-estructura)
-- [▶️ Puesta en marcha](#▶️-puesta-en-marcha)
-- [🎨 Tailwind (CDN) y modo oscuro](#🎨-tailwind-cdn-y-modo-oscuro)
-- [🛒 Carrito simulado](#🛒-carrito-simulado)
-- [🗂️ Datos de ejemplo (opcional)](#🗂️-datos-de-ejemplo-opcional)
-- [♿ Accesibilidad y calidad](#♿-accesibilidad-y-calidad)
-- [🔎 SEO básico](#🔎-seo-básico)
-- [⚡ Rendimiento](#⚡-rendimiento)
-- [🚀 Despliegue](#🚀-despliegue)
+- [Documentación](#documentación)
+- [Funcionalidades](#funcionalidades)
+- [Estructura](#estructura)
+- [Puesta en marcha](#puesta-en-marcha)
+- [Tailwind (CDN) y modo oscuro](#tailwind-cdn-y-modo-oscuro)
+- [Carrito simulado](#carrito-simulado)
+- [Datos de ejemplo (opcional)](#datos-de-ejemplo-opcional)
+- [Accesibilidad y calidad](#accesibilidad-y-calidad)
+- [SEO básico](#seo-básico)
+- [Rendimiento](#rendimiento)
+- [Despliegue](#despliegue)
 
 ---
 
