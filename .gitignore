@@ -1,3 +1,19 @@
+# Node.js
 node_modules/
+
+# Logs
 *.log
+
+# macOS
 .DS_Store
+
+# Windows
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
