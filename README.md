@@ -20,7 +20,6 @@ Estado: **estable**.
 - [🔎 SEO básico](#-seo-básico)
 - [⚡ Rendimiento](#-rendimiento)
 - [🚀 Despliegue](#-despliegue)
-- [🧭 Roadmap](#-roadmap)
 
 ---
 
@@ -36,8 +35,6 @@ Estado: **estable**.
   _Script:_ `assets/js/modo-oscuro.js`
 - **Diseño responsive** y semántica accesible (TailwindCSS + HTML semántico).
 
-> **Nota:** No hay búsqueda/filtrado implementado todavía (pendiente de roadmap).
-
 ---
 
 ## 📁 Estructura
@@ -47,7 +44,7 @@ iReventa/
 ├─ src/
 │  ├─ index.html          # Catálogo (grid de productos)
 │  ├─ producto.html       # Vista de detalle (carga dinámica)
-│  └─ carrito.html        # Vista del carrito (lista + totales básicos)
+│  └─ carrito.html        # Vista del carrito (lista)
 ├─ assets/
 │  ├─ img/                # Imágenes de productos
 │  │  ├─ iphone-13-mini.jpg
@@ -67,6 +64,9 @@ iReventa/
 │     ├─ carrito.js       # Lógica de carrito y contador
 │     └─ producto.js      # Render de la página de detalle
 ├─ docs/
+│  ├─ estructura-paginas-html.md
+│  ├─ estructura-proyecto.md
+│  ├─ instrucciones-colaboracion.md
 └─ tests/
     └─ .gitkeep
 ```
@@ -116,8 +116,7 @@ Clases útiles: `bg-white dark:bg-gray-900`, `text-gray-900 dark:text-gray-100`.
 - **Añadir al carrito**: botones en tarjetas de producto (`.add-to-cart`).  
 - **Persistencia**: `localStorage` con clave `ireventa-cart`.  
 - **Contador**: badge en el botón de carrito (en la cabecera).  
-- **Página del carrito**: lista los ítems guardados y permite visualizar totales básicos.  
-- **Limitaciones** (a propósito): sin cantidades, sin eliminación, sin checkout.
+- **Página del carrito**: lista los ítems guardados y permite visualizarlos.  
 
 > Ideal para demostrar el flujo de compra en un proyecto estático.
 
@@ -149,19 +148,6 @@ Clases útiles: `bg-white dark:bg-gray-900`, `text-gray-900 dark:text-gray-100`.
 
 ## 🚀 Despliegue
 
-- **GitHub Pages**: servir desde `docs/` o raíz del repo.  
 - **Netlify / Vercel**: seleccionar `src/` como directorio de publicación o mover archivos al raíz.  
-- **Cualquier hosting estático**: subir `src/`, `assets/`, `data/` (si aplica).
-
----
-
-## 🧭 Roadmap
-
-- [ ] Página “Carrito” con cantidades, eliminación y totales detallados.  
-- [ ] Búsqueda y filtrado por marca/modelo/almacenamiento.  
-- [ ] Paginación y orden por precio/fecha.  
-- [ ] Galería de imágenes en detalle con zoom.  
-- [ ] Panel admin (CRUD de productos).  
-- [ ] Tests de UI y de almacenamiento local.
 
 ---
