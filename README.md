@@ -10,7 +10,7 @@ Estado: **estable**.
 ---
 
 ## 📚 Índice
-- [📖 Documentación adicional](#-documentacion-adicional)
+- [📖 Documentación](#-documentacion)
 - [✨ Funcionalidades](#-funcionalidades)
 - [📁 Estructura](#-estructura)
 - [▶️ Puesta en marcha](#️-puesta-en-marcha)
@@ -24,7 +24,7 @@ Estado: **estable**.
 
 ---
 
-## 📖 Documentación adicional
+## 📖 Documentación
 
 > Toda la documentación técnica del proyecto se encuentra dentro del directorio [`/docs`](docs/).
 
