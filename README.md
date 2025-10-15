@@ -10,6 +10,7 @@ Estado: **estable**.
 ---
 
 ## 📚 Índice
+- [📖 Documentación adicional](#-documentacion-adicional)
 - [✨ Funcionalidades](#-funcionalidades)
 - [📁 Estructura](#-estructura)
 - [▶️ Puesta en marcha](#️-puesta-en-marcha)
@@ -20,6 +21,21 @@ Estado: **estable**.
 - [🔎 SEO básico](#-seo-básico)
 - [⚡ Rendimiento](#-rendimiento)
 - [🚀 Despliegue](#-despliegue)
+
+---
+
+## 📖 Documentación adicional
+
+> Toda la documentación técnica del proyecto se encuentra dentro del directorio [`/docs`](docs/).
+
+- 🗂️ [Estructura del proyecto](docs/estructura-proyecto.md)  
+  Explica cómo están organizadas las carpetas y archivos del repositorio.
+
+- 🧱 [Estructura de las páginas HTML](docs/estructura-paginas-html.md)  
+  Detalla la organización interna de `index.html`, `producto.html` y `carrito.html`.
+
+- 🤝 [Instrucciones para colaborar](docs/instrucciones-colaboracion.md)  
+  Guía para contribuir correctamente al proyecto (commits, ramas, estilo, etc.).
 
 ---
 
