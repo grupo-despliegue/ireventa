@@ -11,14 +11,15 @@
 <body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-100 font-sans transition-colors duration-300">
 
   <header class="bg-indigo-600 dark:bg-indigo-700 text-white py-6 shadow">
-    <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
-      <div class="text-center w-full sm:w-auto">
-        <h1 class="text-3xl font-bold">iReventa</h1>
-        <p class="mt-1 text-lg opacity-90">Catálogo online de iPhones reacondicionados</p>
+    <div class="relative max-w-7xl mx-auto px-6 h-24 flex items-center justify-end">
+      <div class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+        <a href="index.html" class="text-3xl font-bold">iReventa</a>
+          <p class="mt-1 text-lg opacity-90">Catálogo online de iPhones reacondicionados</p>
       </div>
       <div class="flex items-center gap-4">
         <button id="contadorCarrito" class="relative bg-white/10 px-3 py-2 rounded-xl hover:bg-white/20">
-          🛒 <span id="contadorCarritoNumero" class="absolute -top-2 -right-2 bg-red-600 text-white rounded-full text-xs px-2 py-0.5">0</span>
+          🛒 
+          <span id="contadorCarritoNumero" class="absolute -top-2 -right-2 bg-red-600 text-white rounded-full text-xs px-2 py-0.5">0</span>
         </button>
         <button id="themeToggle" class="hidden sm:inline-flex ml-2 shrink-0 items-center gap-2 rounded-xl border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium backdrop-blur hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/40" type="button" aria-label="Cambiar tema">
           <span id="themeIcon" aria-hidden="true">🌙</span>
